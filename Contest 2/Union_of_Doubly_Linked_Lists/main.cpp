@@ -17,12 +17,14 @@ int main()
 {
 	ios_base::sync_with_stdio(0);
     cin.tie(0);
-    unsigned int a;
-    cout << sizeof a;
+    cin >> n;
+    for(int i = 1; i <= n; ++i){
+        cin >> l[i] >> r[i];
+    }
+
+
     return 0;
 }
-
-
 
 string copyright(){
 	return Author;
